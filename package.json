@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-course",
+  "version": "1.0.0",
+  "description": "APIs testáveis e escaláveis de alta performance com nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renanpupin/nodejs-course.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/renanpupin/nodejs-course/issues"
+  },
+  "homepage": "https://github.com/renanpupin/nodejs-course#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.2.0",
+    "express": "^4.16.3",
+    "mocha": "^5.2.0",
+    "mongoose": "^5.2.14"
+  }
+}
